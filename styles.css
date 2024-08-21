@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    padding: 15px;
+    margin: 5px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #03a83c;
+    color: black;
+}
+.navbar-icon {
+  cursor: pointer;
+}
+
+.navbar-icon.active {
+  filter: brightness(1.5); 
+}
